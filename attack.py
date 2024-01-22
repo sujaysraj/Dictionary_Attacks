@@ -60,7 +60,7 @@ if __name__ == "__main__":
     if is_valid:
         print("That's a strong Password!\n")
     else:
-        print("Consider a stronger Password. This one could be bruteforced!\n")
+        print("Consider a stronger Password with at least 1 uppercase letter, 1 special character and 1 digit. ---> This one could be bruteforced! <---\n")
     print('Creating a SHA256 hash for your password')
     # Use the create_hash function to create a hash
     hashed_pass = create_hash(passwd)
